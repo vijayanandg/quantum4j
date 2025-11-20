@@ -259,7 +259,16 @@ Please use the **Google/IntelliJ Java style guide**.
 ---
 
 # 📄 License
-Quantum4J is released under the **MIT License** — free for commercial and academic use.
+
+Quantum4J is licensed under the Apache License, Version 2.0.
+
+You may use, copy, modify, and distribute this software in source or binary form
+as long as you comply with the LICENSE and NOTICE files.
+
+Commercial usage is allowed. Patent protection is granted under Section 3 of the
+Apache License, Version 2.0.
+
+See the full license in the `LICENSE` file.
 
 ---
 
