@@ -11,8 +11,7 @@
 
   <name>quantum4j</name>
   <description>Quantum4J: A modern Java quantum computing SDK.</description>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/vijayanandg/quantum4j</url>
 
   <licenses>
       <license>
