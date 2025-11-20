@@ -2,6 +2,19 @@ package io.quantum4j.core.gates;
 
 import io.quantum4j.core.math.Complex;
 
+/**
+ * Rotation around the Y-axis (Ry(θ)) quantum gate.
+ *
+ * <p>
+ * Performs a parameterized rotation of θ radians around the Y-axis of the Bloch sphere.
+ * The gate matrix is:
+ * </p>
+ *
+ * <pre>
+ * [cos(θ/2)  -sin(θ/2)]
+ * [sin(θ/2)   cos(θ/2)]
+ * </pre>
+ */
 public final class RYGate extends SingleQubitGate {
 
     private final double theta;

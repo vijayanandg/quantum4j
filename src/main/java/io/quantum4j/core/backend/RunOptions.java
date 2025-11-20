@@ -20,12 +20,12 @@ public final class RunOptions {
      * Create RunOptions with the specified number of shots.
      *
      * @param shots
-     *            number of times to measure the circuit (must be > 0)
+     *            number of times to measure the circuit (must be &gt; 0)
      *
      * @return RunOptions configured with the given shot count
      *
      * @throws IllegalArgumentException
-     *             if shots <= 0
+     *             if shots &lt;= 0
      */
     public static RunOptions shots(int shots) {
         return new RunOptions(shots);

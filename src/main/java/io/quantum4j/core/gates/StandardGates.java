@@ -4,8 +4,11 @@ import io.quantum4j.core.math.Complex;
 
 /**
  * Factory class providing standard single- and two-qubit gates.
+ *
  * <p>
  * StandardGates contains inner classes for commonly used quantum gates:
+ * </p>
+ *
  * <ul>
  * <li><b>Pauli gates:</b> X (NOT), Y, Z</li>
  * <li><b>Hadamard:</b> H (superposition)</li>
@@ -13,7 +16,6 @@ import io.quantum4j.core.math.Complex;
  * <li><b>Two-qubit gates:</b> CNOT, CZ, SWAP, ISWAP</li>
  * <li><b>Three-qubit gates:</b> CCX (Toffoli)</li>
  * </ul>
- * </p>
  */
 public final class StandardGates {
 

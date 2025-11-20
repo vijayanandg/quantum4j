@@ -2,6 +2,15 @@ package io.quantum4j.core.gates;
 
 import io.quantum4j.core.math.Complex;
 
+/**
+ * CNOT (Controlled-NOT) quantum gate.
+ *
+ * <p>
+ * A fundamental two-qubit gate where the target qubit is flipped (X gate) if the control qubit
+ * is |1⟩. It is the quantum equivalent of the classical XOR operation. The gate matrix implements:
+ * |00⟩ → |00⟩, |10⟩ → |11⟩, |01⟩ → |01⟩, |11⟩ → |10⟩.
+ * </p>
+ */
 public final class CNOTGate extends TwoQubitGate {
 
     public CNOTGate() {

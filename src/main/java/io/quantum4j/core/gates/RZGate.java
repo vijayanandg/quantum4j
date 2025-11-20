@@ -2,6 +2,19 @@ package io.quantum4j.core.gates;
 
 import io.quantum4j.core.math.Complex;
 
+/**
+ * Rotation around the Z-axis (Rz(θ)) quantum gate.
+ *
+ * <p>
+ * Performs a parameterized rotation of θ radians around the Z-axis of the Bloch sphere.
+ * The gate matrix is:
+ * </p>
+ *
+ * <pre>
+ * [e^(-i*θ/2)      0     ]
+ * [    0      e^(i*θ/2) ]
+ * </pre>
+ */
 public final class RZGate extends SingleQubitGate {
 
     private final double theta;

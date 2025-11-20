@@ -2,6 +2,16 @@ package io.quantum4j.core.gates;
 
 import io.quantum4j.core.math.Complex;
 
+/**
+ * Toffoli (Controlled-Controlled-X or CCX) quantum gate.
+ *
+ * <p>
+ * A three-qubit gate that applies an X gate (bit flip) to the target qubit only if both control
+ * qubits are |1⟩. The Toffoli gate is a universal reversible gate and is fundamental in quantum
+ * computing for implementing classical logic gates reversibly. It is the quantum equivalent of the
+ * AND gate for quantum circuits.
+ * </p>
+ */
 public final class CCXGate extends ThreeQubitGate {
 
     public CCXGate() {

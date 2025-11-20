@@ -2,6 +2,14 @@ package io.quantum4j.core.gates;
 
 import io.quantum4j.core.math.Complex;
 
+/**
+ * Pre-computed matrix representations for standard quantum gates.
+ *
+ * <p>
+ * This utility class provides constant matrices for common quantum gates including single-qubit
+ * gates (X, Y, Z, H, S, T), parameterized rotations (RX, RY, RZ), and multi-qubit gate components.
+ * </p>
+ */
 public final class GateMatrices {
 
     private GateMatrices() {
