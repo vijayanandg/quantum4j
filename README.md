@@ -68,7 +68,7 @@ implementation 'io.quantum4j:quantum4j:1.0.0'
 
 Until then, clone the repo:
 
-git clone https://github.com/YOUR-ORG/Quantum4J.git
+git clone https://github.com/vijayanandg/quantum4j.git
 
 Quick Start Example
 

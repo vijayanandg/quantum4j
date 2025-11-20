@@ -26,14 +26,14 @@
           <name>Vijaya Anand Geddada</name>
           <email>vijay.geddada@outlook.com</email>
           <organization>Quantum4J</organization>
-          <organizationUrl>https://github.com/YOUR_GITHUB_USER</organizationUrl>
+          <organizationUrl>https://github.com/vijayanandg</organizationUrl>
       </developer>
    </developers>
 
     <scm>
-      <url>https://github.com/YOUR_GITHUB_USER/Quantum4J</url>
-      <connection>scm:git:git://github.com/YOUR_GITHUB_USER/Quantum4J.git</connection>
-      <developerConnection>scm:git:ssh://github.com:YOUR_GITHUB_USER/Quantum4J.git</developerConnection>
+      <url>https://github.com/vijayanandg/quantum4j</url>
+      <connection>scm:git:git://github.com/vijayanandg/quantum4j.git</connection>
+      <developerConnection>scm:git:ssh://github.com:vijayanandg/quantum4j.git</developerConnection>
       <tag>v0.1.0</tag>
   </scm>
 
