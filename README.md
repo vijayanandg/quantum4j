@@ -1,10 +1,10 @@
 # Quantum4J: A Modern Java Quantum Computing SDK  
 **Lightweight • Extensible • Qiskit-Inspired • JVM-Native**
 
-![Build](https://github.com/vijayanandg/quantum4j/actions/workflows/maven.yml/badge.svg)
+![Build](https://github.com/quantum4j/quantum4j/actions/workflows/maven.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)
-![Stars](https://img.shields.io/github/stars/vijayanandg/quantum4j.svg?style=flat)
+![Stars](https://img.shields.io/github/stars/quantum4j/quantum4j.svg?style=flat)
 
 ---
 
@@ -77,7 +77,7 @@ Includes examples for:
 ## Maven (coming soon to Central)
 ```xml
 <dependency>
-    <groupId>io.quantum4j</groupId>
+    <groupId>io.github.quantum4j</groupId>
     <artifactId>quantum4j</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -90,7 +90,7 @@ implementation 'io.quantum4j:quantum4j:1.0.0'
 
 ## From source (current method)
 ```bash
-git clone https://github.com/vijayanandg/quantum4j.git
+git clone https://github.com/quantum4j/quantum4j.git
 ```
 
 ---
@@ -284,4 +284,4 @@ Cloud-native • Microservices • Java • Spring • AI • Quantum
 # ⭐ If you find Quantum4J useful…
 Please star the repo — it helps others discover it!
 
-**https://github.com/vijayanandg/quantum4j**
+**https://github.com/quantum4j/quantum4j**
