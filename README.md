@@ -266,7 +266,7 @@ Quantum4J is released under the **MIT License** — free for commercial and acad
 # 🏢 Maintainer
 
 **Vijay Anand Geddada**  
-Founder – Quantum4J, mainMethod  
+Creator – Quantum4J, mainMethod  
 20+ years enterprise engineering leadership  
 Cloud-native • Microservices • Java • Spring • AI • Quantum
 
