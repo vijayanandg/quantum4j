@@ -79,7 +79,7 @@ Includes examples for:
 <dependency>
     <groupId>io.github.quantum4j</groupId>
     <artifactId>quantum4j</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
