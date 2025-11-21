@@ -47,15 +47,6 @@
         <gpg.passphrase>${gpg.passphrase}</gpg.passphrase>
     </properties>
 
-    <profiles>
-        <profile>
-            <id>no-gpg</id>
-            <properties>
-                <gpg.skip>true</gpg.skip>
-            </properties>
-        </profile>
-    </profiles>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -130,7 +121,7 @@
                 </executions>
                 <configuration>
                     <gpgExecutable>gpg</gpgExecutable>
-                    <gpgPassphrase>${gpg.passphrase}</gpgPassphrase>
+                    <!--<gpgPassphrase>${gpg.passphrase}</gpgPassphrase>-->
                 </configuration>
             </plugin>
 
